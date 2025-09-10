@@ -49,7 +49,7 @@
                 <div class="relative nav-item">
                     <a href="#profil" class="hover:text-yellow-300 cursor-pointer">Profil</a>
                     <ul class="submenu bg-white text-black border rounded shadow-lg">
-                        <li><a href="#visi-misi" class="block px-4 py-2 hover:bg-gray-200">Visi & Misi</a></li>
+                        <li><a href="/" class="block px-4 py-2 hover:bg-gray-200">Visi & Misi</a></li>
                         <li><a href="#struktur" class="block px-4 py-2 hover:bg-gray-200">Struktur Organisasi</a></li>
                         <li><a href="#sejarah" class="block px-4 py-2 hover:bg-gray-200">Sejarah Singkat</a></li>
                     </ul>

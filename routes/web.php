@@ -13,8 +13,11 @@ Route::get('/', function () {
     return view('pembaca');
 });
 Route::get('/visidanmisi', function(){
-    return view('visidanmisi');
+    return view('pembaca.bagian.visidanmisi');
 });
 Route::get('/sejarah', function(){
     return view('sejarah');
+});
+Route::get('/admin', function(){
+    return view('admin.admin');
 });
