@@ -2,7 +2,7 @@
  <header class="bg-blue-700 text-white shadow-lg sticky top-0 z-50">
      <div class="container mx-auto px-4 py-3 flex justify-between items-center">
          <div class="flex items-center space-x-4">
-             <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Logo_Kabupaten_Melawi.png" alt="Logo DISPORAPAR Kabupaten Melawi dengan gambar singa melawi dan tulisan resmi dalam warna biru dan putih" class="w-12 h-14 rounded-full">
+             <img src="{{ asset('img/logo.disporapar.png') }}" class="w-12 h-14 rounded-full">
              <h1 class="text-xl font-bold">DISPORAPAR Kabupaten Melawi</h1>
          </div>
          <nav class="hidden md:flex space-x-6">
@@ -16,11 +16,11 @@
                  </ul>
              </div>
              <div class="relative nav-item">
-                 <a href="#layanan" class="hover:text-yellow-300 cursor-pointer">Layanan</a>
+                 <a href="#layanan" class="hover:text-yellow-300 cursor-pointer">Bidang</a>
                  <ul class="submenu bg-white text-black border rounded shadow-lg">
-                     <li><a href="#olahraga" class="block px-4 py-2 hover:bg-gray-200">Kegiatan Olahraga</a></li>
-                     <li><a href="#pariwisata" class="block px-4 py-2 hover:bg-gray-200">Wisata Daerah</a></li>
-                     <li><a href="#budaya" class="block px-4 py-2 hover:bg-gray-200">Penyelenggaraan Budaya</a></li>
+                     <li><a href="{{ route('pembaca.pemudaan') }}" class="block px-4 py-2 hover:bg-gray-200">Bidang Pemudaan</a></li>
+                     <li><a href="{{ route('pembaca.olahraga') }}" class="block px-4 py-2 hover:bg-gray-200">Bidang Olahraga</a></li>
+                     <li><a href="{{ route('pembaca.pariwisata') }}" class="block px-4 py-2 hover:bg-gray-200">Bidang Pariwisata</a></li>
                  </ul>
              </div>
              <a href="#berita" class="hover:text-yellow-300">Berita</a>

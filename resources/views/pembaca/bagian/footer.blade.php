@@ -6,8 +6,8 @@
         <p class="mb-4">Telepon: (0567) 123456 | Email: info@disporaparmelawi.go.id</p>
         <p class="mb-8">Ikuti kami di media sosial untuk update terbaru.</p>
         <div class="flex justify-center space-x-4">
-            <a href="#" class="text-yellow-400 hover:underline">Facebook</a>
-            <a href="#" class="text-yellow-400 hover:underline">Instagram</a>
+            <a href="https://www.facebook.com/disporapar.kabupatenmelawi?locale=id_ID" class="text-yellow-400 hover:underline">Facebook</a>
+            <a href="https://www.instagram.com/disporaparkabmelawi/" class="text-yellow-400 hover:underline">Instagram</a>
             <a href="#" class="text-yellow-400 hover:underline">Twitter</a>
         </div>
     </div>

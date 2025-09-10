@@ -26,3 +26,16 @@ Route::get('/struktur-organisasi', function () {
 Route::get('/sejarah-singkat', function () {
     return view('pembaca.profil.sejarah');
 })->name('pembaca.sejarah');
+
+// layanan
+Route::get('/pemudaan', function () {
+    return view('pembaca.bidang.pemudaan');
+})->name('pembaca.pemudaan');
+
+Route::get('/olahraga', function () {
+    return view('pembaca.bidang.olahraga');
+})->name('pembaca.olahraga');
+
+Route::get('/pariwisata', function () {
+    return view('pembaca.bidang.pariwisata');
+})->name('pembaca.pariwisata');
