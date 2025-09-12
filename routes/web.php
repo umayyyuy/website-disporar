@@ -39,3 +39,8 @@ Route::get('/olahraga', function () {
 Route::get('/pariwisata', function () {
     return view('pembaca.bidang.pariwisata');
 })->name('pembaca.pariwisata');
+
+// berita
+Route::get('/berita', function () {
+    return view('pembaca.berita.berita');
+})->name('pembaca.berita');

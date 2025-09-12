@@ -23,7 +23,7 @@
                      <li><a href="{{ route('pembaca.pariwisata') }}" class="block px-4 py-2 hover:bg-gray-200">Bidang Pariwisata</a></li>
                  </ul>
              </div>
-             <a href="#berita" class="hover:text-yellow-300">Berita</a>
+             <a href="{{ route('pembaca.berita') }}" class="hover:text-yellow-300">Berita</a>
              <a href="#kontak" class="hover:text-yellow-300">Kontak</a>
          </nav>
          <button class="md:hidden" onclick="toggleMenu()">Menu</button>
@@ -34,7 +34,7 @@
  <nav id="mobile-menu" class="md:hidden bg-blue-700 text-white p-4 space-y-2 hidden">
      <a href="#beranda" class="block">Beranda</a>
      <a href="#profil" class="block">Profil</a>
-     <a href="#layanan" class="block">Layanan</a>
+     <a href="#bidang" class="block">Bidang</a>
      <a href="#berita" class="block">Berita</a>
      <a href="#kontak" class="block">Kontak</a>
  </nav>
